@@ -1,0 +1,4 @@
+@baseUrl = https://raw.githubusercontent.com/jamesmontemagno/app-monkeys/master/baboon.jpg
+
+GET {{baseUrl}}/
+Content-Type: application/json

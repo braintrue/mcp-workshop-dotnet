@@ -4,20 +4,17 @@ public static class AsciiArtHelper
 {
     private static readonly string[] ArtList = new[]
     {
-        @"  __,="""=,__
- ( o o )
- /  V  \",
-        @"   w  c( .. )o   (
-    \\__( - )    ,
-        /    )
-       (__)__)",
-        @"   (o\_/o)
-  (='.'=)
-  (( )_( ))",
-        @"   (o.o)
-   (> <)
-  (     )",
+@" (\_._/) 
+ ( o o ) 
+  > ^ < ",
+@"  (\__/)
+  (•ㅅ•)
+  / 　 づ ",
+@"   (o.o)
+    (> <)
+   (   )"
     };
+
     private static readonly Random random = new();
 
     public static string GetRandomArt()
